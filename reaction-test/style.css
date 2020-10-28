@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
-			
+
 body {
     background-color: #2e86de;
-    color: white;
+    color: #fff;
     font-family: 'Kumbh Sans', sans-serif;
 }
 
@@ -27,19 +27,13 @@ body {
 }
 
 #scoreboard-container {
+    display: inline-block;
     width: 10%;
     min-width: 110px;
-    position: fixed;
-    top: 0;
-    left: 10;
 }
 
 #average-container {
-    text-align: center;
-    width: 11%;
+    width: 10%;
     min-width: 140px;
-    position: fixed;
-    top: 0;
-    right: 10;
-    float: right;	
+    float: right;
 }
